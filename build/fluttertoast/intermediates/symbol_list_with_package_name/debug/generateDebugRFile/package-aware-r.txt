@@ -1,0 +1,7 @@
+ Navigator.push(
+              context,
+              MaterialPageRoute(
+                builder:
+                    (context) => PoiMain(title: 'จุดบริการ', latLng: latLng),
+              ),
+            );
