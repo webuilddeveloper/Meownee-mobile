@@ -1,5 +1,5 @@
-import 'package:demo/splash.dart';
-import 'package:demo/style_theme.dart';
+import 'package:meownee/splash.dart';
+import 'package:meownee/style_theme.dart';
 import 'package:flutter/material.dart';
 
 void main() {

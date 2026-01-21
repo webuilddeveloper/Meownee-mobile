@@ -171,9 +171,9 @@
     },
     {
       "name": "lottie",
-      "rootUri": "file:///Users/ratchanon.k/.pub-cache/hosted/pub.dev/lottie-3.3.1",
+      "rootUri": "file:///Users/ratchanon.k/.pub-cache/hosted/pub.dev/lottie-3.3.2",
       "packageUri": "lib/",
-      "languageVersion": "3.6"
+      "languageVersion": "3.9"
     },
     {
       "name": "matcher",
@@ -338,7 +338,7 @@
       "languageVersion": "3.3"
     },
     {
-      "name": "demo",
+      "name": "meownee",
       "rootUri": "../",
       "packageUri": "lib/",
       "languageVersion": "3.7"

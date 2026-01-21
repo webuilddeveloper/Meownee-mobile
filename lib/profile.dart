@@ -89,14 +89,14 @@ class _ProfilePageState extends State<ProfilePage> {
                 // Name
                 Center(
                   child: Text(
-                    'Demo Tester',
+                    'meownee Tester',
                     style: TextStyle(fontSize: 24, fontWeight: FontWeight.w600),
                   ),
                 ),
 
                 Center(
                   child: Text(
-                    'demo.tester@example.com',
+                    'meownee.tester@example.com',
                     style: TextStyle(fontSize: 14, color: Colors.grey[600]),
                   ),
                 ),

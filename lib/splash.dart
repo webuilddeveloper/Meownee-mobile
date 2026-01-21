@@ -2,12 +2,11 @@
 
 import 'dart:async';
 
-import 'package:demo/blank_page/dialog_fail.dart';
-import 'package:demo/login.dart';
-import 'package:demo/menu.dart';
+import 'package:meownee/blank_page/dialog_fail.dart';
+import 'package:meownee/login.dart';
+import 'package:meownee/menu.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_secure_storage/flutter_secure_storage.dart';
-import 'package:lottie/lottie.dart';
 
 class SplashPage extends StatefulWidget {
   const SplashPage({super.key});
@@ -86,10 +85,9 @@ class _SplashPageState extends State<SplashPage> {
                     child: Column(
                       mainAxisAlignment: MainAxisAlignment.center,
                       children: [
-                        Lottie.asset(
-                          'assets/lotties/welcome.json',
-                          width: 350,
-                          height: 350,
+                        Image.asset(
+                          'assets/icons/logo.png',
+                          width: MediaQuery.of(context).size.width * 0.8,
                         ),
                         const SizedBox(height: 20),
                       ],

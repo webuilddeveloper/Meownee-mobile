@@ -55,7 +55,7 @@ class _HomePageState extends State<HomePage> {
                 builder: (BuildContext context, RefreshStatus? mode) {
                   return Center(
                     child: Lottie.asset(
-                      'assets/lotties/loading.json',
+                      'assets/lotties/Loading Cat.json',
                       width: 60,
                       height: 60,
                       fit: BoxFit.contain,
@@ -83,10 +83,25 @@ class _HomePageState extends State<HomePage> {
                       ),
                     ),
                   ),
+                  SizedBox(height: 16),
 
                   Text(
-                    'รายการสินค้า',
-                    style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
+                    'รายการล่าสุด ',
+                    style: TextStyle(fontSize: 16, fontWeight: FontWeight.w400),
+                  ),
+                  Container(
+                    height: MediaQuery.of(context).size.height * 0.4,
+                    margin: EdgeInsets.only(top: 8),
+                    decoration: BoxDecoration(
+                      color: Colors.grey.shade200,
+                      borderRadius: BorderRadius.circular(12),
+                    ),
+                    child: Center(
+                      child: Text(
+                        'Recent items will be displayed here',
+                        style: TextStyle(fontSize: 18),
+                      ),
+                    ),
                   ),
                 ],
               ),

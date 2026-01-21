@@ -1,10 +1,10 @@
 {
   "roots": [
-    "demo"
+    "meownee"
   ],
   "packages": [
     {
-      "name": "demo",
+      "name": "meownee",
       "version": "1.0.0+1",
       "dependencies": [
         "cupertino_icons",
@@ -62,7 +62,7 @@
     },
     {
       "name": "lottie",
-      "version": "3.3.1",
+      "version": "3.3.2",
       "dependencies": [
         "archive",
         "flutter",

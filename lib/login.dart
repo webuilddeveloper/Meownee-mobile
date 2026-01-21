@@ -1,7 +1,6 @@
 import 'dart:io';
-import 'package:demo/menu.dart';
+import 'package:meownee/menu.dart';
 import 'package:flutter/material.dart';
-import 'package:lottie/lottie.dart';
 
 class LoginPage extends StatefulWidget {
   const LoginPage({super.key, this.pageIndex});
@@ -48,10 +47,9 @@ class _LoginPageState extends State<LoginPage> {
                   crossAxisAlignment: CrossAxisAlignment.stretch,
                   children: [
                     Center(
-                      child: Lottie.asset(
-                        'assets/lotties/Login.json',
-                        width: width * 0.6,
-                        height: height * 0.25,
+                      child: Image.asset(
+                        'assets/icons/logo.png',
+                        width: isSmallScreen ? width * 0.5 : width * 0.6,
                       ),
                     ),
                     SizedBox(height: height * 0.015),

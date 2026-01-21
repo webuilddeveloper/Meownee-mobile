@@ -1,6 +1,6 @@
 // ignore_for_file: deprecated_member_use
 
-import 'package:demo/splash.dart';
+import 'package:meownee/splash.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
